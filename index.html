@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace & Simon - Our Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- SECCIÓN HOME / LANDING PAGE -->
+    <section id="home" class="section landing-section">
+        <div class="checkered-border">
+            <div class="landing-content">
+                <!-- Coloca aquí la imagen de la paloma izquierda: img/dove-left.png -->
+                <img src="img/dove-left.png" alt="Dove" class="dove dove-left">
+                
+                <h1 class="couple-names">Grace <span style="font-size: 1.5em; position: relative; top: 0.1em;">&</span> Simon</h1>                
+                <!-- Coloca aquí la imagen del ángel derecho: img/angel-right.png -->
+                <img src="img/angel-right.png" alt="Angel" class="dove dove-right">
+                
+                <p class="subtitle">ARE GETTING MARRIED!</p>
+                
+                <button class="cta-button" onclick="document.getElementById('rsvp').scrollIntoView({behavior: 'smooth'})">
+                    RSVP NOW
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN INVITACIÓN -->
+    <section id="invitation" class="section invitation-section">
+        <div class="container">
+            <div class="invitation-grid">
+                <!-- Columna izquierda con foto -->
+                <div class="invitation-photo">
+                    <!-- Coloca aquí la foto de los novios estilo vintage -->
+                    <div class="photo-frame">
+                        <img src="img/couple-photo.jpg" alt="Grace y Simon" class="couple-photo">
+                    </div>
+                </div>
+                
+                <!-- Columna derecha con detalles -->
+                <div class="invitation-details">
+                    <p class="intro-text">WE JOYFULLY INVITE YOU TO</p>
+                    <p class="intro-text">CELEBRATE OUR UNION ON</p>
+                    
+                    <h2 class="event-day">Saturday</h2>
+                    <h3 class="event-date">August 8th</h3>
+                    
+                    <!-- Coloca aquí un icono de anillos o campana -->
+                    <img src="img/rings-icon.png" alt="Anillos" class="detail-icon">
+                    
+                    <p class="venue-name">BOTANICAL GARDEN</p>
+                    <p class="venue-location">Brooklyn, New York</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN NUESTRA HISTORIA -->
+    <section id="story" class="section story-section">
+        <div class="container">
+            <div class="story-content">
+    
+                <div class="story-left-column">
+                    <h2 class="section-title">Our love story</h2>
+                    <div class="story-text">
+                        <p>
+                            We met the old-fashioned way: through mutual friends. 
+                            A group dinner turned into just the two of us talking for hours. We haven't stopped talking since.
+                        </p>
+                        <p>
+                            Three years later, on a quiet Sunday morning at home, Simon asked, and Grace gave the easiest 
+                            "yes" of her life. We're so excited to build our future together.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="polaroid-photos">
+                    <div class="polaroid">
+                        <img src="img/memory-1.jpg" alt="Recuerdo 1">
+                    </div>
+                    <div class="polaroid">
+                        <img src="img/memory-2.jpg" alt="Recuerdo 2">
+                    </div>
+                    <div class="polaroid">
+                        <img src="img/memory-3.jpg" alt="Recuerdo 3">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="itinerary" class="section itinerary-section">
+        <div class="container">
+            <!-- Coloca img/ribbon-ornament.png -->
+            <img src="img/ribbon-ornament.png" alt="Adorno" class="section-ornament">
+
+            <h2 class="section-title">The Wedding Day</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <img src="img/church-icon.png" alt="Ceremony" class="timeline-icon">
+                    <h3>Ceremony</h3>
+                    <p>4:00 PM</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <img src="img/toast-icon.png" alt="Cocktails" class="timeline-icon">
+                    <h3>Cocktails</h3>
+                    <p>5:30 PM</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <img src="img/dinner-icon.png" alt="Dinner" class="timeline-icon">
+                    <h3>Dinner</h3>
+                    <p>7:00 PM</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <img src="img/cake-icon.png" alt="Cake Cutting" class="timeline-icon">
+                    <h3>Cake</h3>
+                    <p>8:30 PM</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <img src="img/dance-icon.png" alt="Dancing" class="timeline-icon">
+                    <h3>Dancing</h3>
+                    <p>9:00 PM</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <img src="img/car-icon.png" alt="Send-Off" class="timeline-icon">
+                    <h3>Send-Off</h3>
+                    <p>12:00 AM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN INFORMACIÓN PARA INVITADOS -->
+    <section id="info" class="section info-section">
+        <div class="container">
+            <h2 class="section-title">Guest Information</h2>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="card-header">
+                        <img src="img/hotel-icon.png" alt="Accommodation" class="card-icon">
+                        <h3>Accommodation</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>You're welcome to book directly with the hotels of your choice. Please note that we will be providing a complimentary shuttle service from the wedding venue back to the recommended hotels.</p>
+                        <div class="hotel-list">
+                            THE BALTIC HOTEL<br>
+                            HOLIDAY INN EXPRESS
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="card-header">
+                        <img src="img/reception-icon.png" alt="Reception" class="card-icon">
+                        <h3>Reception</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>The ceremony will take place at The Boathouse, located at:<br>
+                        <strong>101 East Drive, Brooklyn, NY 11235</strong></p>
+                        <p>The ceremony will begin promptly at 4:00 PM. Please arrive by 3:30 PM. A reception will follow at 5:00 PM at the same location.</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="card-header">
+                        <img src="img/transport-icon.png" alt="Transport" class="card-icon">
+                        <h3>Transport</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>The public transportation is limited near the venue. Local taxi services are available for a smooth ride. We recommend booking in advance:</p>
+                        <div class="car-service">
+                            YELLOW CAB COMPANY<br>
+                            +01 555 604 753
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="striped-section">
+    
+                <h3 class="striped-section-title">Further Details</h3>
+
+                <div class="detail-box left">
+                    <h3>Dress Code</h3>
+                    <p>Come in whatever you feel best in, we are truly just happy to have you celebrating with us. Our only request is to please wear...</p>
+                    <p class="cursive-detail">semi-formal attire.</p>
+                </div>
+                
+                <div class="detail-box center">
+                    <img src="img/table-setting-icon.png" alt="Table Setting" class="center-icon">
+                </div>
+                
+                <div class="detail-box right">
+                    <h3>Children</h3>
+                    <p>We love your little ones, but due to venue restrictions and space, we kindly request that our celebration will be...</p>
+                    <p class="cursive-detail">adults-only.</p>
+                    <p>We truly appreciate your understanding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN REGISTRO DE REGALOS -->
+    <section id="registry" class="section registry-section">
+        <div class="container">
+            <!-- Coloca img/gift-icon.png -->
+            <img src="img/gift-icon.png" alt="Regalos" class="section-icon">
+            
+            <h2 class="section-title">Registry</h2>
+            
+            <p class="registry-text">
+                Your presence is our greatest gift. 
+                However, if you wish to contribute to our new beginning, we have created a gift registry at the following stores. 
+                We are also accepting contributions for our honeymoon.
+            </p>
+            
+            <div class="registry-links">
+                <button class="registry-button" onclick="window.open('#', '_blank')">
+                    AMAZON
+                </button>
+                <button class="registry-button" onclick="window.open('#', '_blank')">
+                    LIVERPOOL
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="rsvp" class="section rsvp-section">
+        <div class="container"> <h2 class="section-title">Rsvp</h2>
+            <p class="rsvp-subtitle">PLEASE CONFIRM YOUR ATTENDANCE</p>
+            
+            <form id="rsvpForm" class="rsvp-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="attendance">Will you be attending? *</label>
+                    <select id="attendance" name="attendance" required>
+                        <option value="">Select an option</option>
+                        <option value="yes">Yes, I will gladly attend</option>
+                        <option value="no">No, I will not be able to attend</option>
+                    </select>
+                </div>
+                
+                <div class="form-group" id="guestsGroup" style="display: none;">
+                    <label for="guests">How many guests will accompany you?</label>
+                    <input type="number" id="guests" name="guests" min="0" max="5" value="0">
+                </div>
+                
+                <div class="form-group">
+                    <label for="dietary">Dietary Restrictions</label>
+                    <textarea id="dietary" name="dietary" rows="3" placeholder="Please let us know if you have any allergies or dietary preferences"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message for the couple</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Share your good wishes or a special memory"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="song">Must-play song request</label>
+                    <input type="text" id="song" name="song" placeholder="What song would you like to hear at the party?">
+                </div>
+                
+                <button type="submit" class="submit-button">
+                    SEND CONFIRMATION
+                </button>
+            </form>
+            
+            <div id="confirmationMessage" class="confirmation-message" style="display: none;">
+                <h3>Thank you for your confirmation!</h3>
+                <p>We have received your response. We can't wait to celebrate with you!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <img src="img/ornament-icon.png" alt="Ornament" class="section-icon">
+            
+            <h2 class="section-title">Contact Us</h2>
+            
+            <p class="contact-text">
+                IF YOU HAVE ANY QUESTIONS OR NEED MORE INFORMATION,<br>
+                PLEASE DON'T HESITATE TO GET IN TOUCH.
+            </p>
+            
+            <div class="contact-grid">
+                
+                <div class="contact-card">
+                    <h3>Grace Martinez</h3>
+                    <p>Email: grace.martinez@email.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3>Simon Johnson</h3>
+                    <p>Email: simon.johnson@email.com</p>
+                    <p>Phone: (555) 765-4321</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer-names">Grace & Simon | August 8th, 2025</p>
+        <p class="footer-tagline">With love, see you soon</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
