@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'BirdCharms Sans';
-    src: url('fonts/BirdCharmsSans-Regular.woff2') format('woff2'),
-         url('fonts/BirdCharmsSans-Regular.woff') format('woff');
+    src: url('Fonts/BirdCharmsSans-Regular.woff2') format('woff2'),
+         url('Fonts/BirdCharmsSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap; /* Carga rápida */
@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'BirdCharms Script';
-    src: url('fonts/whimsicalromancescript-regular-webfont.woff2') format('woff2'),
-         url('fonts/whimsicalromancescript-regular-webfont.woff') format('woff');
+    src: url('Fonts/whimsicalromancescript-regular-webfont.woff2') format('woff2'),
+         url('Fonts/whimsicalromancescript-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap; /* Carga rápida */
